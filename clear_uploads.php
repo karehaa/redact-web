@@ -13,6 +13,6 @@ if (is_dir($upload_dir)) {
     }
 }
 
-session_destroy(); // optional: clear session
+session_destroy();
 header('Location: index.php'); // go back to upload form
 exit;
