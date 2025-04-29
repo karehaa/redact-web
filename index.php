@@ -7,16 +7,25 @@
 </head>
 <body>
     <form action="redact_process.php" method="post" enctype="multipart/form-data">
-        <input type="text" name="keyword">
-        <input type="file" name="file">
+        <p>Input the Keyword you want to search:</p>
+        <input type="text" name="keyword"> <br>
+
+        <p>Input the file you want to use:</p>
+        <input type="file" name="file" accept=".html, .txt"> <br>
+
+        <p>Input the Operation you want to use:</p>
         <select name="operation">
             <option value="search">Search</option>
             <option value="redact">Redact</option>
-        </select>
+        </select> <br>
+
+        <p>Input the Output Type you want it to be:</p>
         <select name="output_type">
             <option value="overwrite">Overwrite</option>
             <option value="new">New File</option>
-        </select>
+        </select> <br> <br>
+
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
