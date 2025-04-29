@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redaction Website</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <form action="redact_process.php" method="post" enctype="multipart/form-data">
-        <p>Input the Keyword you want to search:</p>
-        <input type="text" name="keyword"> <br>
 
-        <p>Input the file you want to use:</p>
-        <input type="file" name="file" accept=".html, .txt"> <br>
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
 
-        <p>Input the Operation you want to use:</p>
-        <select name="operation">
-            <option value="search">Search</option>
-            <option value="redact">Redact</option>
-        </select> <br>
+    <div class="container">
+        <div class="card shadow-sm p-4">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">Redaction Tool</h2>
 
-        <p>Input the Output Type you want it to be:</p>
-        <select name="output_type">
-            <option value="overwrite">Overwrite</option>
-            <option value="new">New File</option>
-        </select> <br> <br>
+                <form action="redact_process.php" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="keyword" class="form-label">Keyword to Search</label>
+                        <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter keyword" required>
+                    </div>
 
-        <input type="submit" value="Submit">
-    </form>
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Choose File</label>
+                        <input type="file" class="form-control" id="file" name="file" accept=".html, .txt" required>
+                        <div class="form-text">Accepted formats: .html, .txt</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="operation" class="form-label">Operation</label>
+                        <select class="form-select" id="operation" name="operation" required>
+                            <option value="search">Search</option>
+                            <option value="redact">Redact</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="output_type" class="form-label">Output Type</label>
+                        <select class="form-select" id="output_type" name="output_type" required>
+                            <option value="overwrite">Overwrite</option>
+                            <option value="new">New File</option>
+                        </select>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
