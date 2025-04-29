@@ -7,7 +7,7 @@ This is a group project developed by the following team members:
 3. Farrel Candra Winata Afandi
 4. Muhammad Anugerah Eka Putra
 
-## Getting Started
+## Guide to Team
 
 Follow these steps to set up the project on your device:
 
