@@ -46,6 +46,8 @@ And also, individually, make sure you already have these installed and run it in
 
 If you haven't install that, go with the tutorials with XAMPP [here](https://www.youtube.com/watch?v=r0lDDeVkaks). <br>
 
+Or i recommend installing Apache and PHP manually by following tutorials like [this for the PHP and Apache (along with MySQL, PHPMyAdmin)](https://youtu.be/GXZFDEMkYbM?si=pPZy8XNbHyffB14L). <br>
+
 ## 👌 Aditional Resource for Team
 For more information on Git, you can refer to the [official Git documentation](https://git-scm.com/doc). <br>
 For information about Apache, you can refer to the [Apache Documentation](https://httpd.apache.org/docs/). <br>
