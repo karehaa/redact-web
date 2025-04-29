@@ -1,20 +1,42 @@
 # Redaction Website
-A group project, team member consist of:
+
+This is a group project developed by the following team members:
+
 1. Tristan Al Harrish Basori
 2. Surya Pradipta
 3. Farrel Candra Winata Afandi
 4. Muhammad Anugerah Eka Putra
 
-## How-To for Team:
-To simulate in your device (laptop), you must have GIT installed, open your terminal, and pull this repo with:
-`git clone https://github.com/karehaa/redact-web redact`
+## Getting Started
 
-and then to open the directory in the terminal use:
-`cd redact`
-then open it with visual code with:
-`code .`
+Follow these steps to set up the project on your device:
 
-or you can just open your code editors (visual studio code) and find the file yourself.
+### 1. Clone the Repository
 
-## If you havent download GIT, use the link below
-https://git-scm.com/downloads.
+Ensure that [Git](https://git-scm.com/downloads) is installed on your system. If you haven’t installed Git yet, download and install it from the link provided.
+
+Then, open your terminal and clone this repository using the following command:
+
+```bash
+git clone https://github.com/karehaa/redact-web redact
+```
+This will create a copy of the repository on your local machine in a folder named `redact.`
+
+### 2. Navigate to The Project Directory
+
+After cloning the repository, move into the project directory by running:
+
+```bash
+cd redact
+```
+
+### 3. Open the Project in Visual Studio Code
+
+Once inside the project directory, you can open it in Visual Studio Code using the following command:
+```bash
+code .
+```
+Alternatively, you can manually open Visual Studio Code and navigate to the project folder to open it.
+
+### Aditional Resource for Team
+For more information on Git, you can refer to the [official Git documentation](https://git-scm.com/doc).
