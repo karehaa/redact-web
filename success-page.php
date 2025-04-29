@@ -9,10 +9,8 @@ if (!isset($_SESSION['success_message']) || !isset($_SESSION['download_link'])) 
 
 $success_message = $_SESSION['success_message'];
 $download_link = $_SESSION['download_link'];
-
-session_unset();
-session_destroy();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,3 +44,8 @@ session_destroy();
 </body>
 
 </html>
+
+<?php
+session_unset();
+session_destroy();
+?>
