@@ -19,6 +19,7 @@
                 <p class="text-muted">
                     <?php
                     session_start();
+                    // kalo error message nya ada di display, kalo ternyata error nya aneh maka throw Unknown error.
                     echo isset($_SESSION['error_message']) ? htmlspecialchars($_SESSION['error_message']) : "Unknown error.";
                     ?>
                 </p>

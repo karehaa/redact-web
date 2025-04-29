@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+//kalo success message ato link nya kosong maka throw error dan ke error page
 if (!isset($_SESSION['success_message']) || !isset($_SESSION['download_link'])) {
     $_SESSION['error_message'] = "Something went wrong! Missing success data.";
     header('Location: error-page.php');
