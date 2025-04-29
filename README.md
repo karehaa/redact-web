@@ -38,5 +38,15 @@ code .
 ```
 Alternatively, you can manually open Visual Studio Code and navigate to the project folder to open it.
 
+## 📝 Notes
+And also, individually, make sure you already have these installed and run it in your device whether through XAMPP or manually:
+
+- Apache
+- PHP
+
+If you haven't install that, go with the tutorials with XAMPP [here](https://www.youtube.com/watch?v=r0lDDeVkaks).
+
 ## 👌 Aditional Resource for Team
 For more information on Git, you can refer to the [official Git documentation](https://git-scm.com/doc).
+For information about Apache, you can refer to the [Apache Documentation](https://httpd.apache.org/docs/).
+For information regarding PHP, you can open the [PHP Documentation](https://www.php.net/docs.php).
