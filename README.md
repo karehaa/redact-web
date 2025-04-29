@@ -38,5 +38,5 @@ code .
 ```
 Alternatively, you can manually open Visual Studio Code and navigate to the project folder to open it.
 
-### Aditional Resource for Team
+## Aditional Resource for Team
 For more information on Git, you can refer to the [official Git documentation](https://git-scm.com/doc).
